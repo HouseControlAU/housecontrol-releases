@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "appId": "hc-tvnotify",
-  "applicationId": "au.com.housecontrol.hcfrigate",
+  "applicationId": "au.com.housecontrol.tvnotify",
   "channel": "main",
   "latestVersion": null,
   "versions": []
