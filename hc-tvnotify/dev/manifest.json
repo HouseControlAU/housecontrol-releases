@@ -3,8 +3,16 @@
   "appId": "hc-tvnotify",
   "applicationId": "au.com.housecontrol.tvnotify",
   "channel": "dev",
-  "latestVersion": "0.1.7",
+  "latestVersion": "0.1.8",
   "versions": [
+    {
+      "versionName": "0.1.8",
+      "versionCode": 9,
+      "apkFile": "hc-tvnotify-0.1.8.apk",
+      "sizeBytes": 4652289,
+      "sha256": "sha256:668c36ebb7287d3c977e1e8485713400e5633aad0a207d1543e4d8b1a9ea08ee",
+      "notes": "Older channel releases can be saved to Downloads/HouseControl TVNotify without installing; the app reports the saved location."
+    },
     {
       "versionName": "0.1.7",
       "versionCode": 8,
