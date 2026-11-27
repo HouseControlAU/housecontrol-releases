@@ -3,8 +3,16 @@
   "appId": "hc-tvnotify",
   "applicationId": "au.com.housecontrol.tvnotify",
   "channel": "dev",
-  "latestVersion": "0.1.8",
+  "latestVersion": "0.1.9",
   "versions": [
+    {
+      "versionName": "0.1.9",
+      "versionCode": 10,
+      "apkFile": "hc-tvnotify-0.1.9.apk",
+      "sizeBytes": 4665165,
+      "sha256": "sha256:761d4e9d32ee7fcc550ca30245a20ba974ecb11cbd39e450d4dd4731dd860b22",
+      "notes": "Adds stacked focus-aware notifications with configurable timeout, persistent MQTT topic discovery, and optional Frigate review routing to tvnotify/notify."
+    },
     {
       "versionName": "0.1.8",
       "versionCode": 9,
