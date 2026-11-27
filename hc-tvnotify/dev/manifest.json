@@ -3,8 +3,16 @@
   "appId": "hc-tvnotify",
   "applicationId": "au.com.housecontrol.tvnotify",
   "channel": "dev",
-  "latestVersion": "0.1.3",
+  "latestVersion": "0.1.4",
   "versions": [
+    {
+      "versionName": "0.1.4",
+      "versionCode": 5,
+      "apkFile": "hc-tvnotify-0.1.4-dev-debug.apk",
+      "sizeBytes": 4634765,
+      "sha256": "sha256:d4d70953a4ffe1828225343bc83060ab828d1b43e7b7ec731950fb01d254825e",
+      "notes": "INTERNAL TEST ONLY — debug-signed build for validating the dev updater installer flow; includes the fix to close the staged APK stream before session commit. Not a production release. Android can update this build only when the installed app has the same signing certificate."
+    },
     {
       "versionName": "0.1.3",
       "versionCode": 4,
