@@ -1,49 +1,17 @@
 {
   "schemaVersion": 1,
   "appId": "hc-tvnotify",
-  "applicationId": "au.com.housecontrol.tvnotify",
+  "applicationId": "au.housecontrol.tvnotify",
   "channel": "dev",
-  "latestVersion": "0.1.9",
+  "latestVersion": "0.1.10",
   "versions": [
     {
-      "versionName": "0.1.9",
-      "versionCode": 10,
-      "apkFile": "hc-tvnotify-0.1.9.apk",
-      "sizeBytes": 4665165,
-      "sha256": "sha256:761d4e9d32ee7fcc550ca30245a20ba974ecb11cbd39e450d4dd4731dd860b22",
-      "notes": "Adds stacked focus-aware notifications with configurable timeout, persistent MQTT topic discovery, and optional Frigate review routing to tvnotify/notify."
-    },
-    {
-      "versionName": "0.1.8",
-      "versionCode": 9,
-      "apkFile": "hc-tvnotify-0.1.8.apk",
-      "sizeBytes": 4657837,
-      "sha256": "sha256:385c0fd8368240a474e1672a951363f6d57a97dc6bd2d8a7fef17f4bb36cb786",
-      "notes": "Older channel releases can be saved to Downloads/HouseControl TVNotify without installing; the app reports the saved location."
-    },
-    {
-      "versionName": "0.1.7",
-      "versionCode": 8,
-      "apkFile": "hc-tvnotify-0.1.7.apk",
-      "sizeBytes": 4648205,
-      "sha256": "sha256:f5999b6b944681f1ecc6743aa308f689e1ee0b9a3241d5f5433e8c2d252ea354",
-      "notes": "Adds channel-scoped APK version selection; selected releases are revalidated before download, and canceled updates are cleaned up."
-    },
-    {
-      "versionName": "0.1.4",
-      "versionCode": 5,
-      "apkFile": "hc-tvnotify-0.1.4.apk",
-      "sizeBytes": 4634765,
-      "sha256": "sha256:d4d70953a4ffe1828225343bc83060ab828d1b43e7b7ec731950fb01d254825e",
-      "notes": "INTERNAL TEST ONLY — debug-signed build for validating the dev updater installer flow; includes the fix to close the staged APK stream before session commit. Not a production release. Android can update this build only when the installed app has the same signing certificate."
-    },
-    {
-      "versionName": "0.1.3",
-      "versionCode": 4,
-      "apkFile": "hc-tvnotify-0.1.3.apk",
-      "sizeBytes": 4634301,
-      "sha256": "sha256:76365b50b558d98bc7ba4cf67bf86ff1c9bb13989a8c8562f10f8b04763070a4",
-      "notes": "INTERNAL TEST ONLY — debug-signed APK for validating the dev updater feed. Not a production release. Android will accept this update only when the installed app has the same signing certificate as this local debug build; a production-signed install with a different certificate cannot be updated in place."
+      "versionName": "0.1.10",
+      "versionCode": 11,
+      "apkFile": "hc-tvnotify-0.1.10.apk",
+      "sizeBytes": 4665653,
+      "sha256": "sha256:af2a13e3e8dd7d7f44701fb36dbba29e4f1bb576e05bc4a009e9affe4044fd56",
+      "notes": "New package identity au.housecontrol.tvnotify; older package installs must be removed before installing. Adds Notification Access OFF guidance and a scrollable MQTT topic list."
     }
   ]
 }
