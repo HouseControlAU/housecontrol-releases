@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "appId": "hc-photoscreen",
-  "applicationId": "au.com.housecontrol.photoscreen",
+  "applicationId": "au.housecontrol.photoscreen",
   "channel": "main",
   "latestVersion": null,
   "versions": []
